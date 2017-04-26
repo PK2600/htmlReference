@@ -1,0 +1,35 @@
+.container {
+	width: 1800px;
+}
+
+.container .jumbotron {
+	height:140px;
+}
+
+.browser-icon {
+	width: 20px;
+	height: auto;
+}
+
+.initiallyHidden { display: none; }
+
+table th {
+	color: white;
+	background-color: #424242;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 36px;
+
+}
+
+table td {
+	border: 1px solid #868686;
+	padding: 10px;
+	vertical-align: top;
+}
+
+tr:nth-child(even) {background-color: #EEEEEE}
+
+pre {
+	font-family: 'Ubuntu Mono', monospace;
+}

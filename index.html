@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html reference</title>
+
+	<!-- meta data -->
+	<meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- bootstrap and bootswatch css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet" integrity="sha384-Li5uVfY2bSkD3WQyiHX8tJd0aMF91rMrQP5aAewFkHkVSTT2TmD2PehZeMmm7aiL" crossorigin="anonymous">-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha384-C0X5qw1DlkeV0RDunhmi4cUBUkPDTvUqzElcNWm1NI2T4k8tKMZ+wRPQOhZfSJ9N" crossorigin="anonymous">
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-Xqcy5ttufkC3rBa8EdiAyA1VgOGrmel2Y+wxm4K3kI3fcjTWlDWrlnxyD6hOi3PF" crossorigin="anonymous">-->
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-HzUaiJdCTIY/RL2vDPRGdEQHHahjzwoJJzGUkYjHVzTwXFQ2QN/nVgX7tzoMW3Ov" crossorigin="anonymous">-->
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div id="header-jumbotron" class="jumbotron">
+			<h1>html reference</h1>
+		</div>
+	</div>
+
+	<div class="container" style="overflow-x:auto;">
+		<h6 style="color: #FF0000"><a href="https://www.w3schools.com/html/html5_new_elements.asp" target="_blank"><img src="./images/html5_icon.png" /></a> new in HTML5</h6>
+		<table class="tag-list">
+			<thead>
+        <tr>
+          <th style="width:120px">Tag</th>
+          <th style="width:200px">Description</th>
+          <th style="width:400px">Definition and Usage</th>
+          <th style="width:440px">Tips and Notes</th>
+          <th style="width:320px">Standard Attributes</th>
+          <th style="width:120px">Browser Support</th>
+        </tr>
+      </thead>
+      <tbody>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_comment.asp" target="_blank">&lt!--...--&gt</a></td>
+      		<td>Defines a comment</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">You can also use the comment tag to "hide" scripts from browsers without support for scripts (so they don't show them as plain text): <pre>&ltscript type="text/javascript"><br>&lt!--<br>function displayMsg() {<br>  alert("Hello World!")<br>}<br>//--><br>&lt/script></pre>Note: The two forward slashes at the end of comment line (//) is the JavaScript comment symbol. This prevents JavaScript from executing the --> tag.</div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_doctype.asp" target="_blank">&lt!DOCTYPE></a></td>
+      		<td>Defines a document type</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &lt!DOCTYPE> declaration must be the very first thing in your HTML document, before the <\html> tag. The &lt!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">The &lt!DOCTYPE> declaration is NOT case sensitive. To check if the HTML of your Web documents is valid, go to <a href="http://validator.w3.org/">W3C's validation service.</a></div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_a.asp" target="_blank">&lta></a></td>
+      		<td>Defines a hyperlink</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &lta> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the &lta> element is the <em>href</em> attribute, which indicates the link's destination. By default, links will appear as follows in all browsers:<ul><li>An unvisited link is underlined and blue</li><li>A visited link is underlined and purple</li><li>An active link is underlined and red</li></ul></div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden"></a>The following attributes: download, hreflang, media, rel, target, and type cannot be present if the href attribute is not present. A linked page is normally displayed in the current browser window, unless you specify another target. Use CSS to style links.</div></td>
+      		<td class="standard-atts"><a>show</a>
+	      		<div class="initiallyHidden">
+	      			<table>
+	      				<thead>
+		      				<tr>
+		      					<th>Attribute</th>
+		      					<th>Value</th>
+		      					<th>Description</th>
+		      				</tr>
+	      				</thead>
+	      				<tbody>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_a_download.asp">download</a><img src="./images/html5_icon.png" /></td>
+		      					<td><em>filename</em></td>
+		      					<td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_a_href.asp">href</a></td>
+		      					<td><em>URL</em></td>
+		      					<td>Specifies the URL of the page the link goes to</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_a_media.asp">media</a><img src="./images/html5_icon.png" /></td>
+		      					<td><em>media_query</em></td>
+		      					<td>Specifies what media/device the linked document is optimized for</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_a_target.asp">target</a></td>
+		      					<td><em>_blank<br>_parent<br>_self<br>_top</em></td>
+		      					<td>Specifies where to open the linked document</td>
+	      					</tr>
+	      				</tbody>
+	      			</table>
+	      		</div>
+      		</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_abbr.asp" target="_blank">&ltabbr></a></td>
+      		<td>Defines an abbreviation or an acronym</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltabbr> tag defines an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM". Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">An abbreviation and an acronym are both shortened versions of something else. Both are often represented as a series of letters. The global title attribute can be used in the &ltabbr> tag to show the full version of the abbreviation/acronym when you mouse over the &ltabbr> element.</div></td>
+      		<td class="standard-atts"><a>show</a>
+	      		<div class="initiallyHidden">
+	      			<table>
+	      				<thead>
+		      				<tr>
+		      					<th>Attribute</th>
+		      					<th>Value</th>
+		      					<th>Description</th>
+		      				</tr>
+	      				</thead>
+	      				<tbody>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_global_title.asp">title</a></td>
+		      					<td><em>string</em></td>
+		      					<td>Defines the full description of the abbreviation</td>
+	      					</tr>
+	      				</tbody>
+	      			</table>
+	      		</div>
+      		</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_doctype.asp" target="_blank">&ltarticle></a><a href="https://www.w3schools.com/html/html5_new_elements.asp" target="_blank"><img src="./images/html5_icon.png" /></a></td>
+      		<td>Defines an article</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltarticle> tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. Potential sources for the &ltarticle> element:<ul><li>Forum post</li><li>Blog post</li><li>News story</li><li>Comment</li></ul></div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">Most browsers will display the &ltarticle> element with the following default values:<br><pre>article {<br>    display: block;<br>}</pre></div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon" title="6.0"/><img src="./images/ie-edge_icon.png" class="browser-icon" title="9.0"/><img src="./images/firefox_icon.png" class="browser-icon" title="4.0"/><img src="./images/safari_icon.png" class="browser-icon" title="5.0"/><img src="./images/opera_icon.png" class="browser-icon" title="11.1"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_b.asp" target="_blank">&ltb></a></td>
+      		<td>Defines bold text</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltb> tag specifies bold text.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">According to the HTML 5 specification, the &ltb> tag should be used as a LAST resort when no other tag is more appropriate. The HTML 5 specification states that headings should be denoted with the &lth1> to &lth6> tags, emphasized text should be denoted with the &ltem> tag, important text should be denoted with the &ltstrong> tag, and marked/highlighted text should use the &ltmark> tag. You can also use the CSS "font-weight" property to set bold text.</div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_body.asp" target="_blank">&ltbody></a></td>
+      		<td>Defines the document's body</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltbody> tag defines the document's body. The &ltbody> element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</div></td>
+      		<td>N/A</td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_br.asp" target="_blank">&ltbr></a></td>
+      		<td>Defines a single line break</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltbr> tag inserts a single line break. The &ltbr> tag is an empty tag which means that it has no end tag.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">The &ltbr> tag is useful for writing addresses or poems. Use the &ltbr> tag to enter line breaks, not to separate paragraphs.</div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_button.asp" target="_blank">&ltbutton></a></td>
+      		<td>Defines a clickable button</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltbutton> tag defines a clickable button. Inside a &ltbutton> element you can put content, like text or images. This is the difference between this element and buttons created with the &ltinput> element.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">Always specify the type attribute for a &ltbutton> element. Different browsers use different default types for the &ltbutton> element. If you use the &ltbutton> element in an HTML form, different browsers may submit different values. Use &ltinput> to create buttons in an HTML form.</div></td>
+      		<td class="standard-atts"><a>show</a>
+	      		<div class="initiallyHidden">
+	      			<table>
+	      				<thead>
+		      				<tr>
+		      					<th>Attribute</th>
+		      					<th>Value</th>
+		      					<th>Description</th>
+		      				</tr>
+	      				</thead>
+	      				<tbody>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_autofocus.asp">autofocus</a><img src="./images/html5_icon.png" /></td>
+		      					<td><em>autofocus</em></td>
+		      					<td>Specifies that a button should automatically get focus when the page loads</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_disabled.asp">disabled</a></td>
+		      					<td><em>disabled</em></td>
+		      					<td>Specifies that a button should be disabled</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_form.asp">form</a><img src="./images/html5_icon.png" /></td>
+		      					<td><em>form_id</em></td>
+		      					<td>Specifies one or more forms the button belongs to</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_formaction.asp">formaction</a><img src="./images/html5_icon.png" /></td>
+		      					<td><em>URL</em></td>
+		      					<td>Specifies where to send the form-data when a form is submitted. Only for type="submit"</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_name.asp">name</a></td>
+		      					<td><em>name</em></td>
+		      					<td>Specifies a name for the button</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_type.asp">type</a></td>
+		      					<td><em>button<br>reset<br>submit</em></td>
+		      					<td>Specifies the type of button</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_button_value.asp">value</a></td>
+		      					<td><em>text</em></td>
+		      					<td>Specifies an initial value for the button</td>
+	      					</tr>
+	      				</tbody>
+	      			</table>
+	      		</div>
+      		</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="https://www.w3schools.com/TAgs/tag_canvas.asp" target="_blank">&ltcanvas></a><a href="https://www.w3schools.com/html/html5_new_elements.asp" target="_blank"><img src="./images/html5_icon.png" /></a></td>
+      		<td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden">The &ltcanvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript). The &ltcanvas> tag is only a container for graphics, you must use a script to actually draw the graphics.</div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden">Note: Any text inside the &ltcanvas> element will be displayed in browsers that do not support &ltcanvas>.</div></td>
+      		<td class="standard-atts"><a>show</a>
+	      		<div class="initiallyHidden">
+	      			<table>
+	      				<thead>
+		      				<tr>
+		      					<th>Attribute</th>
+		      					<th>Value</th>
+		      					<th>Description</th>
+		      				</tr>
+	      				</thead>
+	      				<tbody>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_canvas_height.asp">height</a></td>
+		      					<td><em>pixels</em></td>
+		      					<td>Specifies the height of the canvas</td>
+	      					</tr>
+	      					<tr>
+		      					<td><a href="https://www.w3schools.com/TAgs/att_canvas_width.asp">width</a></td>
+		      					<td><em>pixels</em></td>
+		      					<td>Specifies the width of the canvas</td>
+	      					</tr>
+	      				</tbody>
+	      			</table>
+	      		</div>
+      		</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      	<tr>
+      		<td><a href="" target="_blank"></a></td>
+      		<td></td>
+      		<td class="def-and-usage"><a>show</a><div class="initiallyHidden"></div></td>
+      		<td class="tips-and-notes"><a>show</a><div class="initiallyHidden"></div></td>
+      		<td>N/A</td>
+      		<td><img src="./images/chrome_icon.png" class="browser-icon"/><img src="./images/ie-edge_icon.png" class="browser-icon"/><img src="./images/firefox_icon.png" class="browser-icon"/><img src="./images/safari_icon.png" class="browser-icon"/><img src="./images/opera_icon.png" class="browser-icon"/></td>
+      	</tr>
+      </tbody>
+		</table>
+	</div>
+
+	<!-- jquery and bootstrap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- add live reload line here: -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	<!-- custom javascript -->
+	<script src="./js/main.js"></script>
+	<!-- jquery -->
+	<script>
+	</script>
+</body>
+</html>
