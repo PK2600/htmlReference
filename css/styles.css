@@ -6,12 +6,20 @@
 	height:140px;
 }
 
+#html-table {
+	padding-bottom: 100px;
+}
+
 .browser-icon {
 	width: 20px;
 	height: auto;
 }
 
 .initiallyHidden { display: none; }
+
+table {
+	table-layout: fixed;
+}
 
 table th {
 	color: white;
